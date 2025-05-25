@@ -2,17 +2,29 @@
 
 
 
-## Week 1
+## Week 0
 
 
-###  TASK 1 Over The Wire [bandit]
+###  TASK 1 Over The Wire [bandit] (I have solved more lvls but writeup is pending will soon compelete it)
 
 #### level 0 - entering in level 0 is easy as it just uses ssh to login to the server with username,adderess,port and password.
 
 #### level 1 - in this lvl in its given that pass is given in the readme  file that is in home directory so its just using ls and cd command to find it.(pass=ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If)
 
-#### level 2 -
+#### level 2 -263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
+### level 3- -MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
+
+
+### level 4-2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+### level 5-4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+### level 6-HWasnPhtq9AVKe0dmk45nxy20cvUa6EG
+
+### level 7-morbNTDkSW6jIlUc0ymOdMaLnOlFVAaj
+
+### level 8- dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc
 
 
 ### TASK 2 
@@ -119,6 +131,65 @@ int main() {
     return 0;
 }
 
+```
+
+#### To do list(Sigle User)
+In python
+```
+import os
+
+FILE_NAME = "file.txt"
+
+def add_task():
+    task = input("enter a new task: ").strip()
+    if task:
+        with open(FILE_NAME, "a") as file:
+            file.write(task + "\n")
+        print("task added")
+    else:
+        print("empty task not added.")
+
+def view_tasks():
+    if not os.path.exists(FILE_NAME):
+        print("No tasks found.")
+        return
+
+    print("\nyour to-do List:")
+    with open(FILE_NAME, "r") as file:
+        tasks = file.readlines()
+
+    if tasks:
+        for idx, task in enumerate(tasks, 1):
+            print(f"{idx}. {task.strip()}")
+    else:
+        print("No tasks found.")
+
+def clear_tasks():
+    open(FILE_NAME, "w").close()
+    print("All tasks cleared.")
+
+def main():
+    while True:
+        print("\n==== To-Do List Menu ====")
+        print("1. View Tasks")
+        print("2. Add Task")
+        print("3. Clear All Tasks")
+        print("4. Exit")
+
+        choice = input("Enter choice: ").strip()
+
+        if choice == "1":
+            view_tasks()
+        elif choice == "2":
+            add_task()
+        elif choice == "3":
+            clear_tasks()
+        elif choice == "4":
+            break
+        else:
+            print("invalid try again.")
+
+main()
 ```
 
 
