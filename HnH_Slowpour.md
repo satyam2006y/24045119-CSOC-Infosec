@@ -13,3 +13,5 @@ I felt this challenge more like a web one we need to just go inspect and check t
 ## Reverse Engineering
 
 On opening the js file its clear that first we need to reverse the base64 after doing that we can see that "var hTierMem = Buffer.from( "SG5Ie09iZnVzY2F0aW9uSXNBbHNvTm90RW5jcnlwdGlvbn0=","base64");" this decodes to HnH{ObfuscationIsAlsoNotEncryption} and this is the flag .
+
+# Rest challenges still trying!!!!
