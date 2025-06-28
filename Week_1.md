@@ -18,4 +18,11 @@ Following are the quetions asked in this task:-
 
 How many unique IP addresses are connected to the proxy server?
 
+Its simple we just need to use cut with uniq and wc.
+```
+cut -d ' ' -f 1 /path/to/logfile | sort | uniq | wc -l
+
+```
+
+
 
