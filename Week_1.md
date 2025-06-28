@@ -63,6 +63,18 @@ when we used grep on the domain we can see theres some string like "ddbe9f0258a8
 grep **SUSPICIOUS DOMAIN** access.log | cut -d ' ' -f5 | cut -d '=' -f2 | base64 -d
 ```
 
+### Task 14[Have a Holly, Jolly Byte!]
+
+#### Challenge Description
+Use FTK Imager to track down and piece together McGreedy's deleted digital breadcrumbs, exposing his evil scheme. Learn how to perform the following with FTK Imager:
+
+Analyse digital artefacts and evidence.
+Recover deleted digital artefacts and evidence.
+Verify the integrity of a drive/image used as evidence.
+Join McSkidy, Forensic McBlue, and the team in this digital forensic journey! Expose the corporate conspiracy by navigating through cyber clues and unravelling McGreedy's dastardly digital deeds.
+
+#### WriteUp
+
 
 
 
