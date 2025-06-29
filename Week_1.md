@@ -94,6 +94,45 @@ ans=39f2dea6ffb43bf80d80f19d122076b3682773c2
 Right click on the physical drive and click on verify drive/image after some time you will get the hash values.
 
 
+### Task25[CrypTOYminers Sing Volala-lala-latility]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
