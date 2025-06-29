@@ -74,6 +74,24 @@ Verify the integrity of a drive/image used as evidence.
 Join McSkidy, Forensic McBlue, and the team in this digital forensic journey! Expose the corporate conspiracy by navigating through cyber clues and unravelling McGreedy's dastardly digital deeds.
 
 #### WriteUp
+##### Q1.What is the malware C2 server?
+ans=mcgreedysecretc2.thm
+Just open the drive in the FTK imager and check for deleted files in do not open folder there is a txt file named secert chat open it and you will find the C2 server.
+
+##### Q2.What is the file inside the deleted zip archive?
+ans=JuicyTomaTOY.exe
+
+This is even sipmler just open the zip folder and you will see JuicyTomaTOY.exe
+
+##### Q3.What flag is hidden in one of the deleted PNG files?
+ans=THM{byt3-L3vel_@n4Lys15}
+
+As thier is no png in do not open folder come back to the root folder thier are some pngs check them in hex mode and use ctrl+f to find "THM{" you will get the flag in potrait.png.
+
+##### Q4.What is the SHA1 hash of the physical drive and forensic image?
+ans=39f2dea6ffb43bf80d80f19d122076b3682773c2
+
+Right click on the physical drive and click on verify drive/image after some time you will get the hash values.
 
 
 
