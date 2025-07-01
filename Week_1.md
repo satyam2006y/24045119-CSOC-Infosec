@@ -135,6 +135,49 @@ Right click on the physical drive and click on verify drive/image after some tim
 
 
 
+## Challenge 2[picoCTF]
+
+### information (https://play.picoctf.org/practice/challenge/186?category=4&page=1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
