@@ -130,14 +130,29 @@ Right click on the physical drive and click on verify drive/image after some tim
 
 
 
-
-
-
-
-
 ## Challenge 2[picoCTF]
 
-### information (https://play.picoctf.org/practice/challenge/186?category=4&page=1)
+### 1.information (https://play.picoctf.org/practice/challenge/186?category=4&page=1)
+
+#### Description
+Files can always be changed in a secret way. Can you find the flag? [cat.jpg](https://mercury.picoctf.net/static/b4d62f6e431dc8e563309ea8c33a06b3/cat.jpg)
+
+#### WriteUp
+
+By the description its clear something has been changed in the file so first thing is we open the file in kate(text editor)
+thier in the we see this <cc:license rdf:resource='cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9'/> this string is is in base64 form so we convert it using terminal by
+```
+echo cGljb0NURnt0aGVfbTN0YWRhdGFfMXNfbW9kaWZpZWR9 | base64 -d
+```
+we will get the flag picoCTF{the_m3tadata_1s_modified}.
+
+### 2.Matryoshka doll (https://play.picoctf.org/practice/challenge/129?category=4&page=1)
+
+
+
+
+
+
 
 
 
